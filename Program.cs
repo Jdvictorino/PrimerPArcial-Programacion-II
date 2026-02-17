@@ -134,7 +134,7 @@ namespace PrimerParcial
                 if (!int.TryParse(input, out opcion) || opcion < 1 || opcion > 6)
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("      ❌ Opción no válida. Intente de nuevo.");
+                    Console.WriteLine("      Esta opción no es válida. Intente de con otra.");
                     Console.ForegroundColor = ConsoleColor.White;
                     opcion = 0;
                 }
@@ -192,7 +192,7 @@ namespace PrimerParcial
             Console.WriteLine("          EJERCICIO 3: CLASES Y OBJETOS         ");
             Console.WriteLine("     ===========================================================");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("      Trbaje Solo - Pero, creo 3 objetos de tipo Persona...\n");
+            Console.WriteLine("      Trabajé solo - Pero, creo 3 objetos de tipo Persona...\n");
 
             // Crear tres objetos Persona (uno por integrante del grupo)
             Persona persona1 = new Persona("Juan Victorino", 33);
